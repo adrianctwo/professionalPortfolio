@@ -1,0 +1,133 @@
+.navbar {
+    background-color: #505050;
+}
+
+a:hover { 
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    margin: 0px;
+    padding: 8px 16px;
+}
+
+.icon-github {
+    background-image: url(../image/githubnavicon.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.icon-linkedin {
+    background-image: url(../image/linkedinnavicon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.icon-resume {
+    background-image: url(../image/resumenavicon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.icon-contact {
+    background-image: url(../image/contactnavicon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+}
+
+#aboutMe {
+    background-image: url(../image/background1.jpeg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutMeContainer{
+    position: absolute;
+    width: 360px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.aboutMeTitle {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.aboutMeBody {
+    color: white;
+    font-size: 18px;
+}
+
+#snippets{
+    padding: 150px 80px;
+    width: 100%;
+}
+
+#snippetContainerTitle {
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.snippetTitle{
+    text-align: center;
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+
+.snippetBody {
+    text-align: center;
+    font-size: 18px;
+}
+
+#portfolioShowCase{
+    background-image: url(../image/background2.jpeg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolioShowCaseContainer{
+    padding-top: 100px;
+    width: 360px;
+    float: right;
+}
+
+.protfolioShowCaseTitle{
+    font-size: 30px;
+    font-weight:bold;
+    color: white;
+}
+
+.protfolioShowCaseBody{
+    color: white;
+    font-size:18px;
+}
+
+#portfolioShowCase2{
+    background-image: url(../image/background3.jpeg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-body {
+    font-size: 18px;
+}
